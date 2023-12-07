@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+}
+
+.main{
+    height: 10vh;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.main nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.main nav{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    gap: 40px;
+    z-index: 999;
+}
+.main img{
+    height: 40px;
+    width: 80px;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./aboutushand.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.home h1{
+    font-size: 30px;
+}
+
+.home button{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.home button:hover{
+    background-color: white;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    
+}
+.about-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.about-text h1{
+    font-size: 24px;
+}
+.about-text h2{
+    font-size: 34px;
+}
+.abt-txt p{
+    font-size: 60px;
+}
+.img1 img{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+.about-content1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.img2 img{
+    height: 450px;
+    width: 350px;
+    border-radius: 20px;
+}
+.abt-txt2 p{
+    height: 350px;
+    width: 700px;
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+}
+.about-content2{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    gap: 50px;
+    
+}
+.services{
+    height: 150vh;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.service-txt h1{
+    font-size: 24px;
+}
+.service-txt h2{
+    font-size: 34px;
+}
+.services-wrapper img{
+    height: 250px;
+    width: 250px;
+}
+.services-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    position: relative;
+    top: 60px;
+}
+.img-item1{
+    height: 350px;
+    width: 300px;
+}
+.img-item2{
+    height: 350px;
+    width: 300px;
+}
+.img-item3{
+    height: 350px;
+    width: 300px;
+}
+.portfolio{
+    height: 210vh;
+    width: 100%;
+    background-color: rgb(97, 40, 40);
+    position: relative;
+    top: 100px;
+}
+.portfolio-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.port-text{
+    text-align: center;
+}
+
+.port-text h1{
+    font-size: 26px;
+}
+
+.port-text h2{
+    font-size: 44px;
+}
+
+.port1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.port2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.port3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.port1 img{
+    height: 550px;
+    width: 350px;
+}
+.port2 img{
+    height: 350px;
+    width: 350px;
+}
+.port3 img{
+    height: 350px;
+    width: 350px;
+}
+
+.blog{
+    height: 100vh;
+    width: 100%;
+}
+.blog-text{
+    font-size: 30px;
+    position: relative;
+    top: 100px;
+}
+.blog-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.blog-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 80%;
+}
+.photo{
+    height: 50vh;
+    width: 80%;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    position: relative;
+    top: 0px;
+
+}
+
+.photo img{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+.contact-us{
+    background-image: url(cuimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 500px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box input{
+    height: 30px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.box h2{
+    font-size: 34px;
+}
+.box button{
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+}
